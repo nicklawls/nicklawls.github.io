@@ -18,18 +18,18 @@ google-tracking-id: ""
 
 author: "Nicolas Lawler"
 lang: "en"
-title: "{ LICK NAWLER }"
-favicon: "/img/favicon.ico"
-description: ""
-keywords: "smith, jones, personal, jekyll, theme"
+title: "{ Nicolas Lawler }"
+favicon: "/img/alien_gray.ico"
+description: "The blog and bio of Nicolas Lawler"
+keywords: "nick, lawler, nicolas, blog, personal, jekyll, theme"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+black-favicon: ""
+background-img: ""
+me-img: ""
 
 ##############################
 # Dynamic Text on the header #
@@ -43,33 +43,43 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Yolo swag ponies"
 
 ########
 # Blog #
 ########
 
-post-preview-words: 128
+post-preview-words: 0
 
-paginate: 5
+paginate: 10
 
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "licknawler"
 
 ###############
 # Life Events #
 ###############
 
+# TODO find a good image size
+
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: ""
+    date: "May 2012 - December 2015"
+    description: "Switched my major to Computer Science"
+  - image: ""
+    date: "December 2010 - August 2013"
+    description: "Spent 3 unforgetable summers marching with The Bluecoats, a perrenial crowd favorite"
+  - image: ""
+    date: "October 2010 - April 2014"
+    description: "Spent 4 years with Pulse Percussion, winning the highest recognition in the activity in 2014"
+  - image: ""
+    date: "September 2010"
+    description: "Began school at UC Riverside undeclared in the humanities college, vaguely wanting to pursue a career in video games"
+  - image: ""
+    date: "May 2006 - August 2010"
+    description: "Attended high school, focusing more on marching band, indoor drumline, and drum corps than on schoolwork"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
@@ -78,7 +88,7 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: lawler145@gmail.com
 
 ##################
 # Social Buttons #
@@ -86,13 +96,11 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
+    url: "http://facebook.com/nicklawls"
   - title: "twitter"
-    url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "http://twitter.com/licknalwer"
   - title: "github"
-    url: "https://github.com/"
+    url: "https://github.com/nicklawls"
   - title: "rss"
     url: "/feed.xml"
 
