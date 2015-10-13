@@ -43,8 +43,8 @@ type-speed:	8		# Default 10
 start-delay: 400	# Default 200
 delete-delay: 2000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Every improvement is necessiarily a change"
   - text: "Not every change is an improvement"
+  - text: "Every improvement is necessiarily a change"
 
 
 ########
