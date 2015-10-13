@@ -10,7 +10,7 @@ url: "http://nicklawls.github.io"
 
 baseurl: ""
 
-google-tracking-id: ""
+google-tracking-id: "UA-68691916-1"
 
 #############
 # HTML Head #
@@ -18,7 +18,7 @@ google-tracking-id: ""
 
 author: "Nicolas Lawler"
 lang: "en"
-title: "{ Nicolas Lawler }"
+title: "One who lawls"
 favicon: "/img/alien_gray.ico"
 description: "The blog and bio of Nicolas Lawler"
 keywords: "nick, lawler, nicolas, blog, personal, jekyll, theme"
@@ -38,12 +38,14 @@ me-img: ""
 dynamic-typing: True
 shuffle: True	# Shuffle the lines.
 loop: True
-loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
+loop-count:	1 # Set False for infinite loop, or set any number for finite loop.
+type-speed:	8		# Default 10
+start-delay: 400	# Default 200
+delete-delay: 2000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Yolo swag ponies"
+  - text: "Every improvement is necessiarily a change"
+  - text: "Not every change is an improvement"
+
 
 ########
 # Blog #
@@ -66,20 +68,26 @@ disqus-shortname: "licknawler"
 
 events:
   - image: ""
-    date: "May 2012 - December 2015"
-    description: "Switched my major to Computer Science"
+    date: "June 2015 - September 2015"
+    description: "Interned in the Engineering department at j2 Global, built a REST API to streamline internal processes"
   - image: ""
-    date: "December 2010 - August 2013"
-    description: "Spent 3 unforgetable summers marching with The Bluecoats, a perrenial crowd favorite"
+    date: "April 2014"
+    description: "Aged out of Pulse, managed to snag a gold medal"
   - image: ""
-    date: "October 2010 - April 2014"
-    description: "Spent 4 years with Pulse Percussion, winning the highest recognition in the activity in 2014"
+    date: "August 2013"
+    description: "Ended 3 unforgetable summers on the road with the Bluecoats"
+  - image: ""
+    date: "May 2012"
+    description: "Switched majors to Computer Science, began planning a post-band career"
   - image: ""
     date: "September 2010"
-    description: "Began school at UC Riverside undeclared in the humanities college, vaguely wanting to pursue a career in video games"
+    description: "Enrolled at UC Riverside, achieved my goal of joining Pulse Percusion and the Bluecoats"
   - image: ""
-    date: "May 2006 - August 2010"
-    description: "Attended high school, focusing more on marching band, indoor drumline, and drum corps than on schoolwork"
+    date: "2006 - 2010"
+    description: "Attended high school, caught the drumline bug"
+  - image: ""
+    date: "1991"
+    description: "Arrival on earth, located dwelling in Suburbia, USA"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
