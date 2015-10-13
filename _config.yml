@@ -69,7 +69,7 @@ disqus-shortname: "licknawler"
 events:
   - image: ""
     date: "June 2015 - September 2015"
-    description: "Interned in the Engineering department at j2 Global, built a REST API to streamline internal processes"
+    description: "Interned in the Engineering org at j2 Global, built a REST API to streamline internal processes"
   - image: "img/career/pulse.jpg"
     date: "April 2014"
     description: "Aged out of Pulse, managed to snag a gold medal"
@@ -78,7 +78,7 @@ events:
     description: "Ended 3 unforgetable summers on the road with the Bluecoats"
   - image: ""
     date: "May 2012"
-    description: "Switched majors to Computer Science, began planning a post-band career"
+    description: "Switched majors to Computer Science, discovered the joys of programming"
   - image: ""
     date: "September 2010"
     description: "Enrolled at UC Riverside, achieved my goal of joining Pulse Percusion and the Bluecoats"
@@ -87,7 +87,7 @@ events:
     description: "Attended high school, caught the drumline bug"
   - image: ""
     date: "1991"
-    description: "Arrival on earth, located dwelling in Suburbia, USA"
+    description: "Arrived on earth, located dwelling in Suburbia, USA"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
