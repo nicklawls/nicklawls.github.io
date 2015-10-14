@@ -29,7 +29,7 @@ keywords: "nick, lawler, nicolas, blog, personal, jekyll, theme"
 
 black-favicon: ""
 background-img: ""
-me-img: ""
+me-img: "img/brain.png"
 
 ##############################
 # Dynamic Text on the header #
@@ -43,8 +43,7 @@ type-speed:	8		# Default 10
 start-delay: 400	# Default 200
 delete-delay: 2000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Not every change is an improvement"
-  - text: "Every improvement is necessiarily a change"
+  - text: "Not every change is an improvement, but <br> <em>every improvement is necessarily a change</em>"
 
 
 ########
@@ -67,7 +66,7 @@ disqus-shortname: "licknawler"
 # TODO find a good image size
 
 events:
-  - image: ""
+  - image: "img/career/j2.jpg"
     date: "June 2015 - September 2015"
     description: "Interned in the Engineering org at j2 Global, built a REST API to streamline internal processes"
   - image: "img/career/pulse.jpg"
@@ -76,21 +75,19 @@ events:
   - image: "img/career/coats.jpg"
     date: "August 2013"
     description: "Ended 3 unforgetable summers on the road with the Bluecoats"
-  - image: ""
+  - image: "img/career/code.png"
     date: "May 2012"
-    description: "Switched majors to Computer Science, discovered the joys of programming"
-  - image: ""
-    date: "September 2010"
-    description: "Enrolled at UC Riverside, achieved my goal of joining Pulse Percusion and the Bluecoats"
-  - image: ""
-    date: "2006 - 2010"
-    description: "Attended high school, caught the drumline bug"
-  - image: ""
-    date: "1991"
-    description: "Arrived on earth, located dwelling in Suburbia, USA"
+    description: "Declared my major in Computer Science, discovered the joys of programming"
+  - image: "img/career/ucr.png"
+    date: "September 2010 - December 2010"
+    description: "Enrolled undeclared at UC Riverside, achieved my goal of joining [Pulse Percusion](http://pulsepercussion.org/) and the [Bluecoats](http://bluecoats.com/)"
+  - image: "img/career/earth.png"
+    date: "1991 - 2010"
+    description: "Grew up in Suburbia, USA, Earth. Played lots of RPGs, caught the Drumline bug in high school"
+
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "img/career/space2.png"
 
 ##################
 # Contact layout #
@@ -103,12 +100,12 @@ email: lawler145@gmail.com
 ##################
 
 social:
-  - title: "facebook"
-    url: "http://facebook.com/nicklawls"
   - title: "twitter"
-    url: "http://twitter.com/licknalwer"
+    url: "http://twitter.com/licknawler"
   - title: "github"
     url: "https://github.com/nicklawls"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/youreyes"
   - title: "rss"
     url: "/feed.xml"
 
