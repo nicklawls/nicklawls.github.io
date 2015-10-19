@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="nicolas-lawler">Nicolas Lawler</h1>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#108;&#x61;&#x77;&#108;&#x65;&#114;&#x31;&#52;&#x35;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#108;&#x61;&#x77;&#108;&#x65;&#114;&#x31;&#52;&#x35;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript><br />
+<a href="http://www.licknawler.com">licknawler.com</a><br />
+<a href="http://github.com/nicklawls">Github</a></p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<p><strong>j2 Global, Software Engineering Intern (June - September 2015)</strong></p>
+<p>Built a JSON API to automate a customer service workflow that previously required manual engineer intervention. Written in Java using Spring Boot.</p>
+<ul>
+<li>Worked with the original designer and other stakeholders to iteratively build a system that met business goals.</li>
+<li>Projected to free up 80% of Engineering's time spent on customer service requests.</li>
+<li>Also prototyped a web-based interface to query the API and consume it's JSON responses.</li>
+</ul>
+<h2 id="projects">Projects</h2>
+<dl>
+<dt><a href="https://lessons.licknawler.com">Lessons</a></dt>
+<dd><p>A function from bass drumming bass drumming knowledge to money, implemented as a web form.</p>
+<ul>
+<li><p>Frontend is an <a href="http://elm-lang.org">Elm</a> application that communicates with <a href="https://stripe.com/checkout">Stripe Checkout</a>'s JavaScript API over the FFI. Lives on Amazon s3/CloudFront.</p></li>
+<li><p>Backend is a JSON API written in Haskell, using the <a href="https://haskell-servant.github.io/">servant</a> framework. It processes the payment requests sent by the UI and uses the <a href="https://trello.com">Trello</a> API to leave a card in my account. Hosted on Heroku.</p></li>
+</ul>
+</dd>
+<dt><a href="https://ucrlist.herokuapp.com">UCRList</a></dt>
+<dd><p>A UCR-themed <a href="http://listverse.com/">ListVerse</a> for UCR CS's Senior Design course.</p>
+<ul>
+<li>Helped implement the Friends and Followers functionality by picking a suitable Django plugin and defining its interactions with the rest of the application.</li>
+<li>Implemented a simple content ranking algorithm, based on user's browse and like history.</li>
+<li>Led the team's documentation efforts, earning the highest documentation score in the class.</li>
+</ul>
+</dd>
+</dl>
+<h2 id="programming-languages-and-tools">Programming Languages and Tools</h2>
+<dl>
+<dt>Comfortable</dt>
+<dd>Java, Haskell, Elm, JavaScript, SQL, OSX, Linux, Bash, Git
+</dd>
+<dt>Familiar</dt>
+<dd>C, C++, Python, Julia, Matlab, Subversion, Jekyll, AWS, Heroku
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2010-2015 (expected)</dt>
+<dd><p><strong>BS, Computer Science</strong>; University of California, Riverside</p>
+<p><em>3.49 GPA</em></p>
+<p><em>Courses: AI and Machine Learning, Optimization, Mobile Networks, Information Retrieval, Software Engineering, Database Design</em></p>
+</dd>
+</dl>
+<h2 id="non-technical-badassery">Non-Technical Badassery</h2>
+<ul>
+<li>Alumni of the world-renowned <a href="http://bluecoats.com">Bluecoats Drum and Bugle Corps</a>.</li>
+<li>Alumni of the world-renowned <a href="http://pulsepercussion.org/">Pulse Percussion</a>, and was a leader during their 2014 World Championship Season.</li>
+<li>Instructor for the Regional Champion Etiwanda High School Drumline.</li>
+<li>Former instructor for the World Champion Chino Hills High School Drumline.</li>
+</ul>
+</body>
+</html>
